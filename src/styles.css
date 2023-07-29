@@ -1,0 +1,90 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: #000;
+  color: #efefef;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  min-height: 30px;
+  padding: 8px;
+  margin: 1px;
+  list-style: none;
+}
+
+.title {
+  width: 70px;
+}
+
+.input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 6px;
+  outline: none;
+}
+
+.accordion {
+  background-color: #696969;
+  width: 70px;
+  padding: 6px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+  transition: 0.2s;
+  float: right;
+}
+
+.menu {
+  width: 120px;
+  float: left;
+  padding: 5px;
+  background-color: #efefef;
+  border: solid 1px #000000;
+  padding-bottom: 350px;
+}
+
+.newThread {
+  background-color: #0000ff;
+  color: #efefef;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 13px;
+  outline: none;
+}
+
+.category {
+  padding-left: 10px;
+  line-height: 30px;
+  list-style: none;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subTitle {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.text {
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.tags {
+  width: 50px;
+  height: 10px;
+}
